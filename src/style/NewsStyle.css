@@ -1,0 +1,15 @@
+.new-photo{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.new-info{
+    display: flex;
+     justify-content: flex-start;
+}
+.icon-do{
+    width: 25px;
+    height: 25px;
+    margin-top: 1px;
+}
+

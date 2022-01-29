@@ -1,0 +1,18 @@
+.blue-line{
+    margin-left: -10%;
+    height: 15px;
+    width: 110%;
+    background: rgb(0, 0, 209);
+}
+.offece{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+

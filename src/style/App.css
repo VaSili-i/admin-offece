@@ -1,0 +1,40 @@
+.app{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.change{
+    color: blue;
+    cursor: pointer;
+}
+
+.flex-block{
+    display: flex;
+}
+.margin-left-235{
+    margin-left: 250px;
+}
+
+.margin-left-300{
+    margin-left: 320px;
+
+}
+.h4-like{
+ font-weight: bold;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.window-madal{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(248, 248, 248, 0.568);
+    z-index: 2;
+}

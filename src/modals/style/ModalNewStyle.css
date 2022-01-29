@@ -1,0 +1,51 @@
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background: white;
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+.block-form{
+    display: flex;
+    margin: 25px;
+}
+.inputs{
+    border: solid 1px;
+    width: 350px;
+    height: 25px;
+    margin-left: 14px;
+}
+.input-link{
+    border: solid 1px;
+    overflow: hidden;
+    height: 25px;
+    width: 170px;
+    margin-left: 14px;
+}
+textarea{
+    margin-left: 15px;
+    height: 200px;
+    width: 350px;
+}
+
+.button-save{
+    background: red;
+    margin-right: 5px;
+    margin-left: 20px
+}
+
+.button-refuce{
+    background: rgb(241, 240, 230);
+}
+
+.button-form{
+    display: flex;
+    align-self: flex-start;
+    margin: 10px;
+    margin-left: 280px; 
+}

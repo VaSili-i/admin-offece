@@ -1,0 +1,51 @@
+.forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.formss{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.photo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    border-radius: 100%;
+    background: rgb(136, 136, 136);
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+.hg4{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dashed 1px;
+    width: 700px;
+    margin-bottom: 40px;
+}
+
+
+.form-input-p{
+    border: none;
+    outline:none;
+}
+.form-item-change{
+    border-bottom: 1px solid ;
+}
+.person-data{
+    margin-right: 15px;
+
+}
+.blue-text{
+    color: blue;
+    cursor: pointer;
+}

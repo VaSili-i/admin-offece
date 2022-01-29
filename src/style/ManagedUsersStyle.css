@@ -1,0 +1,43 @@
+.navigation{
+    display: flex; 
+    flex-direction: row; 
+    border-bottom: dashed 1px;
+    margin-bottom: 10px;
+    width: 90%
+}
+
+table {
+    width: 90%; 
+    background: white; 
+    color: black; 
+    border-spacing: 1px;
+    
+}
+td, tr {
+    text-align: center;
+    background: white;
+    padding: 5px;
+}
+th {
+       border-bottom: solid 1px;
+       padding: 10px;
+       text-align: center;    
+}
+.selected-users{
+     color: blue;
+     text-decoration: underline blue;
+     
+}
+ .generall-users{
+    margin: 4px;  
+    cursor: pointer;
+}
+.add-user{
+    margin-left: 470px;
+    cursor: pointer; 
+    color: blue;  
+}
+.search-user{
+    width: 200px;
+    height: 20px;
+}
