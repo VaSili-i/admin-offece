@@ -25,8 +25,8 @@ const ManagedList = function () {
                 hide={hide} access={access} />
             <div className="hg4 h4-like">Управление Справочниками</div>
             <div className="manage-list">
-                {list.map(({ title, access, doing }) =>
-                    <div className="manage-list-title">
+                {list.map(({ title, access, doing }, index) =>
+                    <div key={index} className="manage-list-title">
                         <div>
                             <div className="title">{title}</div>
                             <div className="look-list"

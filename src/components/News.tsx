@@ -29,8 +29,7 @@ const News = function () {
             </div>
             <div style={{ display: 'flex' }}>
                 {news.map(({ title, body, photo, date }, index) =>
-
-                    <div>
+                    <div key={index}>
                         <img className='new-photo'
                             src={require('../img/' + photo)} />
                         <div>{date}</div>

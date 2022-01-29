@@ -11,8 +11,8 @@ const Select: FC<ISelectProps> = function ({ options, changes }) {
     return (
         <select className="select"
             onChange={(e) => changes(e.target.value)}>
-            {options.map(option =>
-                <option>{option}</option>
+            {options.map((option, index) =>
+                <option key={index}>{option}</option>
             )}
         </select>
     )

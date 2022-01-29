@@ -52,7 +52,7 @@ const StaffingStructure = function () {
             <h4>Организационно-штатная структура</h4>
             <div>
                 {changeDepartmentUsers().map((name, index) =>
-                    <div className={index !== 0 ? index == 2 || index == 3 ?
+                    <div key={index} className={index !== 0 ? index == 2 || index == 3 ?
                         'margin-left-300' : 'margin-left-235' : ''}>
                         <span>1.{index + 1}</span>
 

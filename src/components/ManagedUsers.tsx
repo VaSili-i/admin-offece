@@ -41,26 +41,28 @@ const ManagedUsers: FC = function () {
             <table>
                 <tr>
                     {listHeader.map(item =>
-                        <th>{item}</th>
+                        <th key={item}>{item}</th>
                     )}
                 </tr>
                 <tbody>
                     {searchedUser.map(({ name, department, phone, mail, id, password }) =>
-                        <tr>
+                        <tr key={id}>
                             <td>{id}</td>
                             <td>{name}</td>
                             <td>{department}</td>
                             <td>{phone}</td>
                             <td>{mail}</td>
                             <td>{password}</td>
-                            <div>
-                                <img className="icon-do change" src={require('../img/pen-chenge.jpg')}
-                                    onChange={() => { }}
-                                />
-                                <img className="icon-do change" src={require('../img/trush.png')}
-                                    onClick={() => { deleteUser(id) }}
-                                />
-                            </div>
+                            <td>
+                                <div>
+                                    <img className="icon-do change" src={require('../img/pen-chenge.jpg')}
+                                        onChange={() => { }}
+                                    />
+                                    <img className="icon-do change" src={require('../img/trush.png')}
+                                        onClick={() => { deleteUser(id) }}
+                                    />
+                                </div>
+                            </td>
                         </tr>
                     )}
                 </tbody>
